@@ -1,0 +1,5 @@
+Nome do repositório: nexus-servicos-os
+Descrição: Aplicativo Android em Kotlin para gestão de ordens de serviço, clientes, equipamentos, orçamento, fotos e PDF de uma oficina.
+Topics: android, kotlin, jetpack-compose, room-database, sqlite, pdf-generation, mobile-app, ai-assisted-development, portfolio-project
+
+Observação: a primeira publicação é um snapshot de portfólio. Corrija os riscos P0 listados em docs/ROADMAP.md antes de recomendar o app para uso com dados reais.

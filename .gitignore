@@ -1,0 +1,41 @@
+# Gradle / Android build output
+.gradle/
+**/build/
+.kotlin/
+
+# Android Studio local configuration
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated Android packages and profiling artifacts
+*.apk
+*.aab
+*.ap_
+*.hprof
+/outputs/
+
+# Local databases, logs, and workshop/customer exports
+*.db
+*.sqlite
+*.sqlite3
+*.log
+Backup_Completo_Nexus.zip
+Planilha_Oficina_Nexus.csv
+NexusServicos_Backup/
+
+# Signing keys and credentials
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

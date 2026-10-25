@@ -1,0 +1,7 @@
+LEIA ANTES DO PRIMEIRO PUSH
+
+1. Esta pasta é uma cópia preparada para portfólio, derivada do ZIP completo enviado.
+2. O arquivo local.properties, pastas build/cache e o número de WhatsApp que estava como valor padrão foram removidos da cópia pública.
+3. Risco crítico encontrado: o botão de limpeza da demonstração apaga dados de tabelas inteiras. Não use com dados reais antes de corrigir.
+4. O build não foi executado nesta sessão porque o ambiente de revisão não tem Android SDK.
+5. Reveja docs/STATUS-E-LIMITACOES.md e docs/CHECKLIST-PUBLICACAO.md antes de publicar.

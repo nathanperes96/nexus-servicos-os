@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Nexus Serviços OS</title>
+  <desc id="desc">Banner industrial escuro com engrenagem laranja, trilhas tecnológicas ciano e o título Nexus Serviços OS.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B0E14"/><stop offset="1" stop-color="#151D2A"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFB14A"/><stop offset="1" stop-color="#FF6A00"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#75F2FF"/><stop offset="1" stop-color="#00A9E8"/></linearGradient>
+    <filter id="glowOrange" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glowCyan" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <g opacity=".20" stroke="#3C5369" stroke-width="1">
+    <path d="M0 45H1200M0 90H1200M0 135H1200M0 180H1200M0 225H1200M0 270H1200"/>
+    <path d="M80 0V320M160 0V320M240 0V320M320 0V320M400 0V320M480 0V320M560 0V320M640 0V320M720 0V320M800 0V320M880 0V320M960 0V320M1040 0V320M1120 0V320"/>
+  </g>
+  <g transform="translate(150 160)">
+    <circle r="94" fill="#111720" stroke="#253647" stroke-width="2"/>
+    <circle r="78" fill="none" stroke="url(#orange)" stroke-width="9" filter="url(#glowOrange)" stroke-dasharray="12 7"/>
+    <circle r="58" fill="none" stroke="#FF8A00" stroke-width="3" opacity=".8"/>
+    <path d="M-28 -35H18Q46 -35 46 -8Q46 9 30 16L-12 36H45" fill="none" stroke="url(#orange)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glowOrange)"/>
+    <path d="M-3 -52V-33M-3 33V52M-53 0H-35M35 0H53" stroke="#FFB14A" stroke-width="5" stroke-linecap="round"/>
+    <g stroke="url(#cyan)" stroke-width="3" stroke-linecap="round" filter="url(#glowCyan)">
+      <path d="M40 -35L66 -60H92M44 -10L72 -10H100M44 16L68 40H94M28 44L28 68V91M62 -59V-82M72 -10H95M68 40H88" fill="none"/>
+      <circle cx="94" cy="-60" r="4" fill="#74F2FF"/><circle cx="101" cy="-10" r="4" fill="#74F2FF"/><circle cx="96" cy="40" r="4" fill="#74F2FF"/><circle cx="28" cy="92" r="4" fill="#74F2FF"/><circle cx="62" cy="-83" r="4" fill="#74F2FF"/>
+    </g>
+  </g>
+  <path d="M280 56V264" stroke="#344456" stroke-width="2"/>
+  <text x="330" y="132" fill="#F4F7FB" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="1">NEXUS SERVIÇOS OS</text>
+  <text x="332" y="174" fill="#B8C5D4" font-family="Arial, Helvetica, sans-serif" font-size="22">Ordens de serviço • Oficina • Tecnologia</text>
+  <g transform="translate(334 216)">
+    <rect width="184" height="34" rx="17" fill="#FF8A00" fill-opacity=".14" stroke="#FF8A00" stroke-opacity=".8"/>
+    <circle cx="17" cy="17" r="5" fill="#FF8A00"/><text x="31" y="22" fill="#FFBF77" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">MÁQUINAS</text>
+    <rect x="198" width="184" height="34" rx="17" fill="#00C8FF" fill-opacity=".10" stroke="#00C8FF" stroke-opacity=".8"/>
+    <circle cx="215" cy="17" r="5" fill="#00C8FF"/><text x="229" y="22" fill="#86E9FF" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">TECNOLOGIA</text>
+  </g>
+  <text x="1160" y="292" fill="#718195" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end">ANDROID · KOTLIN · JETPACK COMPOSE</text>
+</svg>
